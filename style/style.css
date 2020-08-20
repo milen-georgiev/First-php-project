@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+/*------------Стилизиране на формата за качване на вина--------------*/
+
+.form-div {
+    margin-top: 100px;
+    border: 1px solid #e0e0e0;
+    padding-top: 15px
+}
+
+#wine_upload_db {
+    display: block;
+    width: 60%;
+    margin: 10px auto;
+    border-radius: 50%;
+}
+
+.info {
+    color: #2AC4F5;
+    font-weight: bold;
+}
+
+.username {
+    color: orange;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#socials a:hover {
+    text-decoration: none;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+h5.card-title {
+    text-shadow: 0 0 3px gray;
+}
+
+h6.card-title {
+    font-style: italic;
+}
+
+.navbar-nav>.active>a {
+    background-color: #B2B2B2;
+}
